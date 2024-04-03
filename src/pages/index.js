@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import { Analytics } from "@vercel/analytics/react";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -35,6 +36,7 @@ export default function Home() {
       title={`Unlocking Security`}
       description="Secure your applications with Auth-N - a simple, secure, and scalable authentication and authorization service.">
       <HomepageHeader />
+      <Analytics />
       <main>
         <HomepageFeatures />
       </main>
