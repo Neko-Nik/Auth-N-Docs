@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Auth N',
   tagline: 'Empower Your Security Journey with Auth-N: Where Authentication Meets Innovation!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
   url: 'https://auth-n.nekonik.com',
