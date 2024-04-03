@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# API Reference
 
-Let's discover **cats in less than 5 minutes**.
+This section contains the API reference documentation for the `Auth-N` API. You can use this documentation to explore the available endpoints, request and response formats, and authentication mechanisms.
 
-## Getting Started
+:::danger Disclaimer
+    This is a work in progress project. Do not use it in production.
+:::
 
-Get started by **creating a new site**.
+## Overview
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+The `Auth-N` API provides a set of endpoints for managing user authentication and authorization. It offers a range of features to help you secure your application and manage your users effectively.
 
-### What you'll need
+The API is designed to be flexible and extensible, allowing you to customize it to meet the unique requirements of your application. Whether you are building a small web application or a large enterprise system, `Auth-N` can help you implement user authentication with ease.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+The best part is that `Auth-N` is highly scalable and performant, making it suitable for applications with high traffic and large user bases.
 
-## Generate a new site
+Also not to forget, `Auth-N` is completely free and open-source, so you can use it without any licensing restrictions and contribute to its development if you wish.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::warning Note
+    This documentation is a work in progress and will be updated later. Stay tuned for more updates!
+:::

@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **cats in less than 5 minutes**.
+Auth-N is a powerful API for managing user authentication. Developed by Nikhil Raj (Alias: Neko Nik), this custom solution offers robust security features and flexible user management capabilities.
 
-## Getting Started
+:::danger Disclaimer
+    This is a work in progress project. Do not use it in production.
+:::
 
-Get started by **creating a new site**.
+## Key Features
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- User registration, login, and logout functionalities.
 
-### What you'll need
+- Role-based access control with support for various user roles and permissions.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Password policy enforcement and management, including password reset and change functionalities.
 
-## Generate a new site
+- Multi-factor authentication options such as password less login and two-factor authentication (2FA).
 
-Generate a new Docusaurus site using the **classic template**.
+- Enhanced security features including JWT token authentication, IP-based restriction, and CSRF protection.
 
-The classic template will automatically be added to your project after you run the command:
+- Audit logging to track user actions and system activities.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- Seamless integration with other services via API key authentication and machine-to-machine communication.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Fully customizable and extendable to meet the unique requirements of your application.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Highly scalable and performant, with support for high traffic and large user bases.
 
-## Start your site
+- Easy to deploy and manage, with detailed documentation and support available.
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
+## Why Auth-N?
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Auth-N is designed to simplify the process of implementing user authentication in your application. By using Auth-N, you can leverage a battle-tested solution that provides robust security features and flexible user management capabilities. Whether you are building a small web application or a large enterprise system, Auth-N can help you secure your application and manage your users effectively.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+:::warning Note
+    This documentation is a work in progress and will be updated regularly.
+:::
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::tip Feedback
+    If you have any questions, feedback, or suggestions, please feel free to reach out to the author by email at [nikhil@nekonik.com](mailto:nikhil@nekonik.com). Your input is valuable and will help improve the quality and usability of this documentation.
+:::
