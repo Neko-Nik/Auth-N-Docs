@@ -46,13 +46,7 @@ const config = {
           editUrl:
             'https://github.com/Neko-Nik/Auth-N-Docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Neko-Nik/Auth-N-Docs/tree/main/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -74,11 +68,22 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiSidebar',
+            position: 'left',
+            label: 'API',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'contributeSidebar',
+            position: 'left',
+            label: 'Contribute',
+          },
           {
             href: 'https://github.com/Neko-Nik/Auth-N',
             label: 'GitHub',
@@ -93,8 +98,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/Docs/intro',
+              },
+              {
+                label: 'API Reference',
+                to: '/docs/API/intro',
+              },
+              {
+                label: 'Source Code Reference',
+                to: '/docs/Contribute/intro',
               },
             ],
           },
