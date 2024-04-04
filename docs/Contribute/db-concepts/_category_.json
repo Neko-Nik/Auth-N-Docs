@@ -1,0 +1,8 @@
+{
+    "label": "DB concepts",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "Theoretical concepts and models used in databases and understanding how they work."
+    }
+}
