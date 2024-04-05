@@ -1,0 +1,8 @@
+{
+    "label": "Role-Based Access Control",
+    "position": 10,
+    "link": {
+        "type": "generated-index",
+        "description": "Using RBAC to handle user permissions and access control at granular levels and at scale."
+    }
+}
